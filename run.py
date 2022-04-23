@@ -8,3 +8,10 @@ def create_credential(sname, fname, lname, password):
     '''
     new_credential = Password(sname, fname, lname,password)
     return new_credential
+
+
+def save_credential(credential):
+    '''
+    Funtion to save the credential
+    '''
+    credential.save_credential()
