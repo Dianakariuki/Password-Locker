@@ -42,3 +42,11 @@ def credential_exist(cls, account_name):
                 return True
 
         return False   
+    
+    
+@classmethod
+def display_credentials(cls):
+        '''
+        Method that displays the credentials list
+        '''
+        return cls.credentials_list
