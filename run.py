@@ -40,3 +40,18 @@ def display_credentials():
     Function that returns all the saved credentials
     '''
     return Password.display_credentials()
+
+
+
+def create_user(username, psswrd):
+    '''
+    Function to create a new user credentials
+    '''
+    new_user = User(username, psswrd)
+    return new_user
+
+def save_users(user):
+    '''
+    Funtion to save the credential
+    '''
+    user.save_users()
