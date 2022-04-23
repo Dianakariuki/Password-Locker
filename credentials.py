@@ -28,3 +28,17 @@ def find_by_account_name(cls, account_name):
         for credential in cls.credentials_list:
             if credential.account_name == account_name:
                 return credential    
+            
+            
+         
+@classmethod
+def credential_exist(cls, account_name):
+    
+        '''
+        Method that checks if a credential actually exists
+        '''
+        for credential in cls.credentials_list:
+            if credential.account_name == account_name:
+                return True
+
+        return False   
