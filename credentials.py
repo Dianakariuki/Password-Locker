@@ -4,3 +4,9 @@ class Password :
     '''
     
 credentials_list = []
+
+def save_credential(self):
+        '''
+        Method to save a new object in the credential list
+        '''
+        Password.credentials_list.append(self)
