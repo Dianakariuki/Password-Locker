@@ -50,3 +50,9 @@ def display_credentials(cls):
         Method that displays the credentials list
         '''
         return cls.credentials_list
+
+def __init__(self, account_name, first_name, last_name, user_password):
+        self.account_name = account_name
+        self.first_name = first_name
+        self.last_name = last_name
+        self.user_password = user_password
