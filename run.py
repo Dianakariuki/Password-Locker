@@ -27,3 +27,11 @@ def find_credential(site_name):
     Function to find a credential
     '''
     return Password.find_by_account_name(site_name)
+
+
+def check_existing_credentials(account_name):
+    '''
+    Function to check whether a credential exists
+    '''
+    return Password.credential_exist(account_name)
+
