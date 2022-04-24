@@ -23,7 +23,7 @@
 #### View my various account credentials and their passwords in the application.
 #### Delete a credentials account that I no longer need in the application.
 
-## CLONING
+## installation -- CLONING
 
 ### Requirements
 
