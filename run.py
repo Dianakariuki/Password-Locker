@@ -1,10 +1,12 @@
 #!/usr/bin/env python3.8
 from credentials import Password
 import sys
+sys.path.append("termcolor in /home/moringa/.local/lib/python3.8/site-packages (1.1.0)")
+from termcolor import colored, cprint
 import random
 import string
 from users import User
-from termcolor import colored, cprint
+
 #from termcolor import colored, cprint
 
 def create_credential(sname, fname, lname, password):
