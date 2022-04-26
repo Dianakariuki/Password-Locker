@@ -23,12 +23,13 @@ class Password :
         
         
         
-                def delete_credential(self):
+        def delete_credential(self):
+                
                         
-                        '''
-                        Method to delete a credential from the list
-                        '''
-                        Password.credentials_list.remove(self)
+                '''
+                Method to delete a credential from the list
+                '''
+                Password.credentials_list.remove(self)
         
         @classmethod
         def find_by_account_name(cls, account_name):
