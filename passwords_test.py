@@ -9,7 +9,6 @@ class TestPassword(unittest.TestCase):
     def setUp(self):
         
         
-        
         self.new_credentials = Password("Facebook","Diana","Kariuki","Diana842")
         
 
