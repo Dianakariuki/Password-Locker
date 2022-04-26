@@ -42,3 +42,5 @@
 [Go Back to the top](#PASSWORD-LOCKER)
 
 ## Licence
+
+### Email dianakariuki842@gmail.com
